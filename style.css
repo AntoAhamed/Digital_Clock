@@ -1,11 +1,8 @@
 body {
-    background-color: #1a1a1a;
-}
-
-h1 {
-    margin: auto;
-    text-align: center;
-    color: aliceblue;
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 #btn {
@@ -25,17 +22,17 @@ h1 {
 }
 
 #clock {
-    height: 190px;
-    width: 800px;
     background-color: antiquewhite;
     color: #0066ff;
     margin: auto;
     border-radius: 10px;
     display: flex;
+    justify-content: center;
     margin-top: 100px;
-    font-size: 120px;
-    padding: 34px 10px 12px 67px;
+    font-size: 100px;
+    padding: 12px 10px 12px 10px;
     font-family: Lucida Handwriting;
     text-shadow: 0 0 5px black, 0 0 10px black,
         0 0 20px black, 0 0 40px black;
+    text-align: center;
 }
